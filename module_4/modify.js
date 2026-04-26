@@ -6,6 +6,7 @@ let obj1 = {
  // updating the object and add the key - value 
 obj1.roll_no = 4568;   // is taraha object me add kar sakta h
 obj1.name = "prince sexsena"
+obj1.class = "BCA final"
 
 console.log(obj1)
 
