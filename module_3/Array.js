@@ -27,3 +27,9 @@ console.log(arr1[3] + arr2[4])
 console.log(arr1[3] / arr2[2])
 
 
+
+let array = ["prince", "name"];
+console.log(array)
+array.push("samriddhi")
+console.log(array)
+
