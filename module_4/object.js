@@ -40,4 +40,9 @@ object.roll_no = 89898;
 
 console.log(object)
 
+let name = new Object();
+name.username = "prince";
+name.class = "BCA";
+name.roll_no = 1130
 
+console.log(name.username, name.roll_no)
