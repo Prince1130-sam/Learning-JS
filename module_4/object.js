@@ -20,6 +20,17 @@ let obj_2 = {
 console.log("this is a OBJECT 2 "+ obj_2.userName)   // or yaha variable ki value sa access karna hai 
 
 
+const object_variable = "name";
+
+let  obj_3 = {
+    [object_variable] : "samriddhiPrince",
+    class : "BCA",
+    roll_no : 8081280994
+}
+
+console.log("this is a object 3 "+obj_3.name)
+
+
 // approach 2 using class 
 
 let object = new Object();   // create a bluePrint it mean ( class )
