@@ -21,4 +21,4 @@ if(average >= 55){
 
 }else{
     console.log("student is fail")
-}
+};
