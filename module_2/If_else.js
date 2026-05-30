@@ -9,7 +9,6 @@ if(num === 0){
 }
 
 
-
 const average = 29 ;
 if(average >= 55){
     console.log("student is A+")
