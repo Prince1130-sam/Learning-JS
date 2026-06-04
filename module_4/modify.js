@@ -25,8 +25,9 @@ Object.keys(user).forEach((key)=>{console.log(key,user[key])})
 
 // use the user object we can get the value
 
-console.log(Object.values(user))
-console.log(Object.keys(user))
+console.log(Object.values(user))   // is me value dikhne ka liya use kiya jata hai Object.values()
+console.log(Object.keys(user))  // is me key dikhne ka liya use kiya jata hai Object.key() 
+
 
 
 
