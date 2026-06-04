@@ -7,10 +7,12 @@ max = (a < b)? true : false;       // is me first value = true value hoti hai or
 console.log(max)
 
 
-let isLogged = true
+let isLogged = false
 let answer;
+let answer2;
 
 
-answer = (isLogged === true)? "yess its Logged in": "No iis not Logged in" ,(isLogged === false)? "it will be inside tha application" : "it is not in side";
-
+answer = (isLogged === true)? "yess its Logged in": "No is not Logged in" ,answer2 = (isLogged === false)? "it will be inside tha application" : "it is not in side";
+                                // upper wale me to bar condition diya hua hai jisa comma, se define kiya gya hai 
 console.log(answer)
+console.log(answer2)
