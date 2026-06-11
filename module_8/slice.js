@@ -3,7 +3,7 @@ const arr = [1,2,3,4,5,6,7]
 
 const number = arr.slice(1,4)  // hamesa ya do argument lega first start index second number of index or print hamesa length -1 hoga 
 console.log(arr)
-console.log(number) // this method mot modify the original array 
+console.log(number) // this method not modify the original array 
 
 
 // Q1 sirf 30 , 40 nikalne ke liya slice()use karna hai
