@@ -1,5 +1,8 @@
-function hello(name, callback){
-console.log("hello",name);
+// High Order function 
+
+
+function hello(name, callback){  // (hello) yaha par ek high order  function hai 
+console.log("hello",name);    // high order function ka arrgument ka ander ek function pass kar sakte hai  or parameter me callback bhi
 callback();
 }
 
