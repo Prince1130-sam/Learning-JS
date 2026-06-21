@@ -1,0 +1,29 @@
+
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:650px ;
+    
+
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.text{
+  color:brown; 
+  font-size: larger; 
+}
+
+#btn{
+    border-radius: 5px;
+    height:30px;
+  
+}
