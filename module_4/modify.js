@@ -23,7 +23,13 @@ const user = {name : "Alice" , age : 25 , city : "new york"};
 Object.keys(user).forEach((key)=>{console.log(key,user[key])})
 
 
-// use the user object we can get the value
+const loginUsers = {name : "prince", age : 21, class:"MCA"}
+Object.keys(loginUsers).forEach((user)=>{console.log(user,loginUsers[user])})
+
+
+
+
+// use the user object we want get the value
 
 console.log(Object.values(user))   // is me value dikhne ka liya use kiya jata hai Object.values()
 console.log(Object.keys(user))  // is me key dikhne ka liya use kiya jata hai Object.key() 

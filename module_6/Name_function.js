@@ -12,5 +12,5 @@ function greet(i){
     }
 
 
-let ans = greet()
+let ans = greet(3)
 console.log(ans)

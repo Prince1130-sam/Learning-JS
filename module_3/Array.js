@@ -4,15 +4,16 @@ console.log(arr1)
 
 console.log(`this is the second value '${arr1[3]}'`)  // template literals 
 
-console.log(arr1[3] - arr1[2])  
+console.log(arr1[3] - arr1[2])  // kabhi bhi subtract nahi hota hai array me 
 
-console.log(arr1[0] + arr1[3]) 
+console.log(arr1[0] + arr1[3]) // but concat hota hai 
 
 
-const out = arr1.pop()
+const out = arr1.pop() // pop array ka last index ko remove kar deta hai
 console.log(out)
 
 const demo = arr1.push("demo")
+arr1.push("hello")
 
 console.log(demo)
 console.log(arr1)     // push or pop original array ko modify karta hai

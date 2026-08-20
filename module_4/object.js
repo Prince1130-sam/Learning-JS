@@ -23,7 +23,7 @@ console.log("this is a OBJECT 2 "+ obj_2.userName)   // or yaha variable ki valu
 const object_variable = "name";
 
 let  obj_3 = {
-    [object_variable] : "samriddhiPrince",
+    [object_variable] : "Prince",
     class : "BCA",
     roll_no : 8081280994
 }
